@@ -12,8 +12,8 @@
   },
   "scripts": {
     "build": "./build.sh",
-    "start-server": "ts-node --esm src/server.ts",
-    "start-client": "ts-node --esm src/client.ts"
+    "start-server": "node dist/src/server.js",
+    "start-client": "ts-node dist/src/client.js"
   },
   "dependencies": {
     "grpc-tools": "^1.12.4"
