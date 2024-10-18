@@ -24,7 +24,7 @@ function main() {
             return;
         }
         console.log(`Your server has started on port ${port}`);
-        server.start();
+        server;
     });
 }
 

@@ -4,7 +4,7 @@ import { fileURLToPath } from 'url';
 import path from 'path';
 const PORT = 5050;
 const proto_path = './proto/chat.proto';
-// Use fileURLToPath to resolve __dirname equivalent
+// Use fileURLToPath to resolve __dirname 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename).replace('\src', '');
 const pkg_def = protoLoader.loadSync(path.resolve(__dirname, proto_path));
@@ -18,7 +18,7 @@ function main() {
             return;
         }
         console.log(`Your server has started on port ${port}`);
-        server.start();
+        server;
     });
 }
 function getServer() {
